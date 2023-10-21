@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Signup.css">
+    <script type="text/javascript" src="Signup.js"></script>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="nav">
+            <div class="nav1">
+                <img class="logo" src="https://tse3.mm.bing.net/th?id=OIP.-hl5-d6WXqIlSCjj9tvcSQHaBw&pid=Api&P=0&h=180"
+                    alt="meesho">
+                <div id="search">
+                    <input class="search" type="search" placeholder="Try Saree Kurti Or Search By Product code">
+                </div>
+            </div>
+
+            <div class="nav2">
+                <div class="icon">
+                    <p class="mobicon"><i class="fa-solid fa-mobile-screen"></i></p>
+                    <div class="app-dropdown">
+                        <p class="icon1">Download App</p>
+                        <div class="app-dropdown-contents">
+                            <h4>Download from</h4>
+                            <img class="app-img" src="https://images.meesho.com/images/pow/playstore-icon-big.png"
+                                alt="" onclick="openGooglePlay()">
+                            <img class="app-img" id="app-img2"
+                                src="https://images.meesho.com/images/pow/appstore-icon-big.png" alt=""
+                                onclick="openAppStore()">
+                        </div>
+
+                    </div>
+                </div>
+
+                <p class="line"></p>
+
+                <div>
+                    <p class="icon1" id="icon1">Become a Supplier</p>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+
+    <div class="home">
+        <div class="signup">
+            <div class="signup-img">
+                <img src="	https://images.meesho.com/images/marketing/1661417516766.webp" alt="">
+            </div>
+            <h2>Sign Up to view your profile</h2>
+            <p class="country">Country</p>
+            <div class="mobNo">
+                <h3>IN +91</h3>
+                <input type="number" placeholder="Phone Number" id="mobNo">
+
+            </div>
+            <div id="error-msg"></div>
+
+
+            <button onclick=" noValidation()" class="continue-btn">Continue</button>
+
+            <p class="terms">By continuing, you agree to Meesho’s
+                <span>Terms & Conditions </span>and
+                <span>Privacy Policy</span>
+            </p>
+        </div>
+
+
+
+
+</body>
+
+</html>
